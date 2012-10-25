@@ -2,8 +2,6 @@
 
 *This is a clojure version from [python-x256](https://github.com/magarcia/python-x256)*
 
-Return the nearest xterm 256 color code for rgb inputs.
-
 Return the nearest
 [xterm 256 color code](http://www.frexx.de/xterm-256-notes/)
 for rgb inputs.
