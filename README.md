@@ -1,5 +1,7 @@
 # clj-x256
 
+[![Build Status](https://secure.travis-ci.org/john2x/clj-x256.png?branch=master)](http://travis-ci.org/john2x/clj-x256)
+
 *This is a clojure version from [python-x256](https://github.com/magarcia/python-x256)*
 
 Return the nearest
