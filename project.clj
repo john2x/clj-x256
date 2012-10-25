@@ -1,4 +1,4 @@
-(defproject clj-x256 "0.1.0-SNAPSHOT"
+(defproject clj-x256 "0.0.1"
   :description "Return the nearest xterm 256 color code for rgb inputs."
   :url "http://bitbucket.org/john2x/clj-x256"
   :license {:name "MIT"
