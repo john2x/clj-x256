@@ -6,6 +6,16 @@ Return the nearest
 [xterm 256 color code](http://www.frexx.de/xterm-256-notes/)
 for rgb inputs.
 
+## Install
+
+Available at [clojars.org](https://clojars.org/clj-x256).
+
+### Leiningen
+
+Add the following in your `project.clj` `:dependencies`:
+
+    [clj-x256 "0.0.1"]
+
 ## Usage
 
 Example:
