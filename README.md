@@ -19,9 +19,8 @@ Example:
 
 ### Methods
 
-    var x256 = require('x256')
-
-##### clj-x256.x256/from-rgb [[red green blue]], [red green blue]
+##### clj-x256.x256/from-rgb
+`[[red green blue]], [red green blue]`
 
 Return the nearest xterm 256 color code for the 24-bit `[red, green, blue]`
 values.
@@ -30,20 +29,23 @@ values.
 inclusive.
 
 
-##### clj-x256.x256/from-hex [hex]
+##### clj-x256.x256/from-hex
+`[hex]`
 
 Return the nearest xterm 256 color code for the hexadecimal color
 values.
 
 `hex` should be string without 0x.
 
-##### clj-x256.x256/to-rgb [ix]
+##### clj-x256.x256/to-rgb
+`[ix]`
 
 Return 24-bit `[red, green, blue]` values from xterm 256 color code.
 
 `ix` should be integer.
 
-##### clj-x256.x256/to-hex [ix]
+##### clj-x256.x256/to-hex
+`[ix]`
 
 Return hexadecimal color from xterm 256 color code.
 
