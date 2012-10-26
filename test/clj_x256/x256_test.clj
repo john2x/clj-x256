@@ -6,7 +6,7 @@
   (let [rgb [220 40 150]
         xcolor 162
         hex "dC2896"
-        aprox-hex "d7087"
+        aprox-hex "d70087"
         aprox-rgb [215 0 135]]
     (testing "from-rgb"
       (is (= (from-rgb rgb)

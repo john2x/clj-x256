@@ -9,12 +9,9 @@
 
 (defn rgb-to-hex
   ([c]
-   (rgb-to-hex (c 0) (c 1) (c 2)))
+   (clojure.string/join (map format (repeat "%02x") c)))
   ([r g b]
-   ;TODO: pad with "0"
-    (str (Integer/toHexString r)
-         (Integer/toHexString g)
-         (Integer/toHexString b))))
+   (rgb-to-hex [r g b])))
 
 (def ^:const xterm-colors-hex
     ["000000",
