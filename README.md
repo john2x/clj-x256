@@ -45,7 +45,7 @@ inclusive.
 Return the nearest xterm 256 color code for the hexadecimal color
 values.
 
-`hex` should be string without 0x.
+`hex` should be string without `0x` or `#`.
 
 ##### clj-x256.x256/to-rgb
 `[ix]`
